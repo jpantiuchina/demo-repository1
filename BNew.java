@@ -1,7 +1,7 @@
 // This is a very cool class.
 class B {
   
-  int field1 = 9;
+  int field1 = 99999;
   
 
   public B() {
