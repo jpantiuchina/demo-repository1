@@ -1,4 +1,5 @@
 // This is a very cool class.
+//second comment line
 class B {
   
   int field1 = 99999;
