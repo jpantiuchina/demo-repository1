@@ -1003,6 +1003,18 @@ class BNew {
                     {
                       for (j = 0; j < c; j++)
                       {
+                        if (j > k)
+                        {
+                          System.out.println(j);
+                        }
+                        if (j > 10)
+                        {
+                          System.out.println(k);
+                        }
+                        if (j > k + 5)
+                        {
+                          System.out.println(k+5);
+                        }
                         for (j = 0; j < c; j++)
                         {
                           if (j > k)
@@ -1103,18 +1115,6 @@ class BNew {
                   if (j > k)
                   {
                     System.out.println(j);
-                  }
-                  if (j > k)
-                  {
-                    System.out.println(j);
-                  }
-                  if (j > 10)
-                  {
-                    System.out.println(k);
-                  }
-                  if (j > k + 5)
-                  {
-                    System.out.println(k+5);
                   }
                 }
                 System.out.println("=");
